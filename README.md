@@ -11,8 +11,10 @@ Este repositório contém o projeto completo do banco de dados relacional para o
 - Modelo conceitual 
 - Modelo lógico 
 - Script SQL/DDL do modelo físico
+  
 ## Dicionario de dados
-Cliente
+
+Tabela: Cliente
 
 | Campo          | Tipo         | Obrigatório | Restrição de Integridade    | Descrição                                  |
 | -------------- | ------------ | ----------- | --------------------------- | ------------------------------------------ |
@@ -26,7 +28,8 @@ Cliente
 | validade\_cnh  | DATE         | Sim         | NOT NULL                    | Data de validade da CNH                    |
 | categoria\_cnh | CHAR(2)      | Não         | —                           | Categoria da CNH (ex: B, C, D)             |
 
-- Tabela: VEICULO
+Tabela: Veiculo
+
 | Campo       | Tipo        | Obrigatório | Restrição de Integridade  | Descrição                               |
 | ----------- | ----------- | ----------- | ------------------------- | --------------------------------------- |
 | id\_veiculo | INT         | Sim         | PK                        | Identificador único do veículo          |
@@ -37,14 +40,16 @@ Cliente
 | cor         | VARCHAR(20) | Não         | —                         | Cor do veículo                          |
 | cliente\_id | INT         | Não         | FK → CLIENTE(id\_cliente) | Cliente associado ao veículo (opcional) |
 
-- Tabela: PÁTIO
+Tabela: Pátio
+
 | Campo       | Tipo         | Obrigatório | Restrição de Integridade  | Descrição                    |
 | ----------- | ------------ | ----------- | ------------------------- | ---------------------------- |
 | id\_patio   | INT          | Sim         | PK                        | Identificador único do pátio |
 | localizacao | VARCHAR(100) | Não         | —                         | Localização física do pátio  |
 | veiculo\_id | INT          | Não         | FK → VEICULO(id\_veiculo) | Veículo atualmente no pátio  |
 
-- Tabela: Reserva
+Tabela: Reserva
+
 | Campo               | Tipo        | Obrigatório | Restrição de Integridade  | Descrição                                  |
 | ------------------- | ----------- | ----------- | ------------------------- | ------------------------------------------ |
 | id\_reserva         | INT         | Sim         | PK                        | Identificador único da reserva             |
@@ -55,7 +60,8 @@ Cliente
 | data\_fim           | DATE        | Não         | —                         | Data de término da reserva                 |
 | status              | VARCHAR(20) | Não         | —                         | Status atual da reserva (ativo, concluído) |
 
-- Tabela: Locação
+Tabela: Locação
+
 | Campo              | Tipo | Obrigatório | Restrição de Integridade  | Descrição                      |
 | ------------------ | ---- | ----------- | ------------------------- | ------------------------------ |
 | id\_locacao        | INT  | Sim         | PK                        | Identificador único da locação |
@@ -64,7 +70,8 @@ Cliente
 | cliente\_id        | INT  | Sim         | FK → CLIENTE(id\_cliente) | Cliente que realizou a locação |
 | patio\_entrega\_id | INT  | Sim         | FK → PATIO(id\_patio)     | Pátio de devolução do veículo  |
 
-- Tabela: Cobrança
+Tabela: Cobrança
+
 | Campo            | Tipo          | Obrigatório | Restrição de Integridade  | Descrição                                  |
 | ---------------- | ------------- | ----------- | ------------------------- | ------------------------------------------ |
 | id\_cobranca     | INT           | Sim         | PK                        | Identificador único da cobrança            |
