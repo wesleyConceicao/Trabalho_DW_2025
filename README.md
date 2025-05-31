@@ -13,7 +13,6 @@ Este repositório contém o projeto completo do banco de dados relacional para o
 - Script SQL/DDL do modelo físico
 ## Dicionario de dados
 
-- Tabela: CLIENTE
 | Campo          | Tipo         | Obrigatório | Restrição de Integridade    | Descrição                                  |
 | -------------- | ------------ | ----------- | --------------------------- | ------------------------------------------ |
 | id\_cliente    | INT          | Sim         | PK                          | Identificador único do cliente             |
