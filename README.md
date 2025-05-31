@@ -12,6 +12,7 @@ Este repositório contém o projeto completo do banco de dados relacional para o
 - Modelo lógico 
 - Script SQL/DDL do modelo físico
 ## Dicionario de dados
+Cliente
 
 | Campo          | Tipo         | Obrigatório | Restrição de Integridade    | Descrição                                  |
 | -------------- | ------------ | ----------- | --------------------------- | ------------------------------------------ |
