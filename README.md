@@ -8,8 +8,8 @@ Este repositório contém o projeto completo do banco de dados relacional para o
 
 ## Conteúdo
 - PDF do projeto 
-- [Modelo conceitual](https://raw.githubusercontent.com/wesleyConceicao/Trabalho_DW_Wesley_conceicao_2025/refs/heads/main/Imagem_modelo_conceitual.png)
-- [Modelo lógico](https://raw.githubusercontent.com/wesleyConceicao/Trabalho_DW_Wesley_conceicao_2025/refs/heads/main/Imagem_modelo_l%C3%B3gico.png)
+- [Imagem Modelo conceitual](https://raw.githubusercontent.com/wesleyConceicao/Trabalho_DW_Wesley_conceicao_2025/refs/heads/main/Imagem_modelo_conceitual.png)
+- [Imagem Modelo lógico](https://raw.githubusercontent.com/wesleyConceicao/Trabalho_DW_Wesley_conceicao_2025/refs/heads/main/Imagem_modelo_l%C3%B3gico.png)
 - Script SQL/DDL do modelo físico
   
 ## Dicionario de dados
