@@ -1,6 +1,6 @@
 # Projeto de Banco de Dados Transacional - Locadora de Veículos
 
-## Equipe
+## Aluno
 - Wesley Conceição da Silva - 118096333
 
 ## Descrição
