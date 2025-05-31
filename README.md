@@ -238,6 +238,3 @@ Não
 —
 Forma de pagamento (cartão, dinheiro etc.)
 
-
-## Licença
-Uso educacional e não comercial.
