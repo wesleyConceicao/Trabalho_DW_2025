@@ -7,9 +7,9 @@
 Este repositório contém o projeto completo do banco de dados relacional para o sistema de reservas e locação de veículos de uma locadora associada a um consórcio de empresas.
 
 ## Conteúdo
-- PDF do projeto com justificativa e explicação
-- Modelo conceitual 
-- Modelo lógico 
+- PDF do projeto 
+- [Modelo conceitual](https://raw.githubusercontent.com/wesleyConceicao/Trabalho_DW_Wesley_conceicao_2025/refs/heads/main/Imagem_modelo_conceitual.png)
+- [Modelo lógico](https://raw.githubusercontent.com/wesleyConceicao/Trabalho_DW_Wesley_conceicao_2025/refs/heads/main/Imagem_modelo_l%C3%B3gico.png)
 - Script SQL/DDL do modelo físico
   
 ## Dicionario de dados
