@@ -11,7 +11,7 @@ Este repositório contém o projeto completo do banco de dados relacional para o
 - Modelo conceitual 
 - Modelo lógico 
 - Script SQL/DDL do modelo físico
-##Dicionario de dados
+## Dicionario de dados
 Tabela: CLIENTE
 Campo
 Tipo
